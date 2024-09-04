@@ -4,7 +4,7 @@ import bcrypt from "bcryptjs";
 import { connectMongoDB } from "@/app/lib/mongodb";
 import User from "@/app/models/user";
 import { NextAuthUser } from "@/app/types/type";
-import { promises } from "dns";
+
 
 export const authOptions: AuthOptions = {
   providers: [
